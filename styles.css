@@ -3,14 +3,14 @@
            color:blue;
            text-align:center;
           }
- p {
-    color: green;
+ p{
+     color:blue;
    }
 
 
  div {
 
-      background-color:yellow;
+      /*background-color:yellow;*/
       widht: 100px;
       height: 400px;
       margin: 15px;
