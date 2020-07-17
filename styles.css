@@ -11,18 +11,30 @@
 
  div {
 
-      background-color:teal;
+      background-color:yellow;
       widht: 100px;
       height: 400px;
       margin: 15px;
       padding: 25px;
       font-family:Arial,sans-serif;
-      font-size: 28px;
-      font-weight:bold;
+      font-size: 28px;    
       border: 5px dotted blue;
   }
 
   table{
   border: 2px solid black;
+  border-collapse: collapse;
+  width:50%;
   }
-  th,td{border:1px solid black;}
+  th,td{
+        border:1px solid black;
+        padding: 5px;
+        text-align: center;
+  }
+  th{background-color: blue;}
+
+
+#top{font-size: 36px;}
+#middle{font-size: 24px;}
+#bottom{font-size: 12px;}
+.name{font-weight: bold;}
