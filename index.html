@@ -41,6 +41,8 @@
 
         <li>primer item </li>
         <li>segundo item </li>
+
+        
         <li> tercer item </li>
 
     </ol>
@@ -82,9 +84,29 @@
           <h1>formulario</h1>
 
                     <form>
+                       <div>
+                            <input type="text" placeholder="Nombre Completo" name="name">
+                            <input type="text" placeholder="Email" name="email">
+                            <button>Aceptar</button>
+                      </div>
 
-                        <input type="text" placeholder="Nombre Completo" name="name">
-                        <button>Aceptar</button>
+                      <div>
+                          Color Favorito?
+                          <input name="color" type="radio" value="Red">Rojo
+                          <input name="color" type="radio" value="Green">Verde
+                          <input name="color" type="radio" value="Blue">Azul
+                          <input name="color" type="radio" value="Other">Otro
+                      </div>
+
+                      <div>
+                            <input name="Country" list="countries" placeholder="Pais">
+                            <datalist id="countries">
+                            <option value="Argenzuela">
+                            <option value="Cubargentina">
+
+                      </div>
+
+
 
                     </form>
 
