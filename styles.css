@@ -38,6 +38,7 @@
 #bottom{font-size: 12px;}
 .name{font-weight: bold;}
 
-/* usar < o > para referirse a hijos padres abuelos*/
+/*para referise a hijos padres abuelos*/
+ol > li{
 color:red;
 }
