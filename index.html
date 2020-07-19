@@ -4,117 +4,47 @@
 
   <head>
     <meta charset="utf-8">
-    <title> PRUEBA PAGINA WEB </title>
+    <title> Web Check In </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css">
+
   </head>
 
 
   <body>
 
- <div id="top">
-  Esta es la parte <span class="name">Superior</span> de la pagina web.
-  <h2>Tabla de Contenidos</h2>
-   <ul>
-   <li><a href="#Section1">Seccion 1 </a></li>
-   <li><a href="#orderedlist">Lista Ordenada 2 </a></li>
-   <li><a href="#players">Jugadores </a></li>
+    <ul>
+    <li><a href="#Check_in">Web Check In </a></li>
+    <li><a href="https://www.loisuites.com.ar/es/covid-19-informaci%C3%B3n-importante"> Covid 19 </a></li>
+    <li><a href="https://www.buenosaires.gob.ar/coronavirus/preguntas-frecuentes-covid-19">Consultas Frecuentes </a></li>
+    </ul>
 
-   </ul>
+<div class="field-content"><img typeof="foaf:Image" class="img-responsive" src="https://www.loisuites.com.ar/sites/default/files/Home---Ig_2.jpg" width="100%" </div>
+<!--  <h2>Formulario Web</h2>-->
+<br></br>
+
+
 </div>
+          <h1>Web Check in</h1>
 
-    <h1 id="Section1">TITULO PRINCIPAL H1</h1>
-    <a href="https://google.com">Click aqui</a>
-    <h2> practicando TITULO H2</h2>
-
-    <p id="unorderlist">Lista sin ordenar</p>
-
-          <ul>
-              <li>un item </li>
-              <li>otro item </li>
-              <li> otro mas </li>
-
-        </ul>
-
-    <h4 id="orderedlist">Lista ordenad</h4>
-    <ol>
-
-        <li>primer item </li>
-        <li>segundo item </li>
-        <ul>
-            <li>Sublista primer item</li>
-            <li>Sublista segundo item</li>
-        </ul>
-        <li> tercer item </li>
-
-    </ol>
-
-
-    <div id="middle">
-     Esta es la parte <span class="name">media</span> de la pagina web.
-    </div>
-
-   <div>
-    <h2>Boquita</h2>
-  </div>
-
-    <h2 id="players">jugadores</h2>
-    <table>
-          <tr>
-              <th>Nombre</th>
-              <th>apellido</th>
-              <th>año</th>
-          </tr>
-
-         <tr>
-             <td>Juan Roman</td>
-             <td>Riquelme</td>
-             <td>todos</td>
-        </tr>
-
-        <tr>
-            <td>Zlatan</td>
-            <td>Ibrahimović</td>
-            <td>ojala</td>
-       </tr>
-     </table>
-
-
-    <img src = "https://i1.wp.com/www.sopitas.com/wp-content/uploads/2020/05/boca-juniors-historia-destras-escudo-1110x581.png" width="50%";>
-
-          <h1>formulario</h1>
-
-                    <form>
-                       <div>
-                            <input type="text" placeholder="Nombre Completo" name="name">
+                    <form id="Check_in"class="formulario web check in">
+                       <div class="formulario_web">
+                            <input type="text" placeholder="Nombre Completo" name="Nombre">
                             <input type="text" placeholder="Email" name="email">
+                            <input type="number" placeholder="Numero Telefono" name="Telefono">
+                            <input type="text" placeholder="Direccion" name="Direccion">
+                            <input type="date" placeholder="Fecha de viaje" name="Fecha de viaje">
+                            <br></br>
+                            <input type="number" placeholder="Cantidad Personas" name="Cantidad Personas">
+                            <br></br>
                             <button>Aceptar</button>
-                      </div>
-
-                      <div>
-                          Color Favorito?
-                          <input name="color" type="radio" value="Red">Rojo
-                          <input name="color" type="radio" value="Green">Verde
-                          <input name="color" type="radio" value="Blue">Azul
-                          <input name="color" type="radio" value="Other">Otro
-                      </div>
-
-                      <div>
-                            <input name="Country" list="countries" placeholder="Pais">
-                            <datalist id="countries">
-                            <option value="Argenzuela">
-                            <option value="Cubargentina">
-
-                      </div>
-
-
+                       </div>
 
                     </form>
 
-
-    <div id="bottom">
-     Esta esla parte <span class="name">inferior</span> de la pagina web.
-    </div>
 </body>
 
 

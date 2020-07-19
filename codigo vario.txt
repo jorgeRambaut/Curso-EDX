@@ -1,0 +1,166 @@
+<!<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+
+  <head>
+    <meta charset="utf-8">
+    <title> PRUEBA PAGINA WEB </title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  </head>
+
+
+  <body>
+
+ <div id="top">
+  Esta es la parte <span class="name">Superior</span> de la pagina web.
+  <h2>Tabla de Contenidos</h2>
+   <ul>
+   <li><a href="#Section1">Seccion 1 </a></li>
+   <li><a href="#orderedlist">Lista Ordenada 2 </a></li>
+   <li><a href="#players">Jugadores </a></li>
+
+   </ul>
+</div>
+
+    <h1 id="Section1">TITULO PRINCIPAL H1</h1>
+    <a href="https://google.com">Click aqui</a>
+    <h2> practicando TITULO H2</h2>
+
+    <p id="unorderlist">Lista sin ordenar</p>
+
+          <ul>
+              <li>un item </li>
+              <li>otro item </li>
+              <li> otro mas </li>
+
+        </ul>
+
+    <h4 id="orderedlist">Lista ordenad</h4>
+    <ol>
+
+        <li>primer item </li>
+        <li>segundo item </li>
+        <ul>
+            <li>Sublista primer item</li>
+            <li>Sublista segundo item</li>
+        </ul>
+        <li> tercer item </li>
+
+    </ol>
+
+
+    <div id="middle">
+     Esta es la parte <span class="name">media</span> de la pagina web.
+    </div>
+
+   <div>
+    <h2>Boquita</h2>
+  </div>
+
+    <h2 id="players">jugadores</h2>
+    <table>
+          <tr>
+              <th>Nombre</th>
+              <th>apellido</th>
+              <th>año</th>
+          </tr>
+
+         <tr>
+             <td>Juan Roman</td>
+             <td>Riquelme</td>
+             <td>todos</td>
+        </tr>
+
+        <tr>
+            <td>Zlatan</td>
+            <td>Ibrahimović</td>
+            <td>ojala</td>
+       </tr>
+     </table>
+
+
+    <img src = "https://i1.wp.com/www.sopitas.com/wp-content/uploads/2020/05/boca-juniors-historia-destras-escudo-1110x581.png" width="50%";>
+
+          <h1>formulario</h1>
+
+                    <form>
+                       <div>
+                            <input type="text" placeholder="Nombre Completo" name="name">
+                            <input type="text" placeholder="Email" name="email">
+                            <button>Aceptar</button>
+                      </div>
+
+                      <div>
+                          Color Favorito?
+                          <input name="color" type="radio" value="Red">Rojo
+                          <input name="color" type="radio" value="Green">Verde
+                          <input name="color" type="radio" value="Blue">Azul
+                          <input name="color" type="radio" value="Other">Otro
+                      </div>
+
+                      <div>
+                            <input name="Country" list="countries" placeholder="Pais">
+                            <datalist id="countries">
+                            <option value="Argenzuela">
+                            <option value="Cubargentina">
+
+                      </div>
+
+
+
+                    </form>
+
+
+    <div id="bottom">
+     Esta esla parte <span class="name">inferior</span> de la pagina web.
+    </div>
+</body>
+
+
+
+</html>
+
+h2{
+    color:blue;
+    text-align:center;
+   }
+p{
+color:blue;
+}
+
+
+div {
+
+/*background-color:yellow;*/
+widht: 50%;
+/*height: 50%;*/
+margin: 15px;
+padding: 25px;
+font-family:Arial,sans-serif;
+font-size: 28px;
+border: 5px dotted blue;
+}
+
+table{
+border: 2px solid black;
+border-collapse: collapse;
+width:50%;
+}
+th,td{
+ border:1px solid black;
+ padding: 5px;
+ text-align: center;
+}
+th{background-color: blue;}
+
+
+#top{font-size: 36px;}
+#middle{font-size: 24px;}
+#bottom{font-size: 12px;}
+.name{font-weight: bold;}
+
+/*para referise a hijos padres abuelos*/
+ol > li{
+color:red;
+}
