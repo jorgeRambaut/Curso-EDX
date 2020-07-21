@@ -1,0 +1,87 @@
+PYTHON
+"""print("ingresar Numero")
+number=input()
+print(f"el numero es, {number}!")
+
+
+i=28
+print(f"i es {i}")
+f=2.8
+print(f"f es {f}")
+
+b=True
+print(f"b es {b}")
+
+n=None
+print(f"n es {n}")
+
+number=0
+if number > 0:
+    print("x es positivo")
+elif number < 0:
+    print("x es negativo")
+else:
+    print("x es cero")
+
+name = "alice"
+coordinates=(10.0,20.0)
+names=["alice","bob","charlie"]"""
+
+"""loops"""
+""""for i in range(5):
+    print(i)
+names=["alice","bob","charlie"]
+
+for name in names:
+    print(name)"""
+    """agrega valores que no se repiten
+    s=set()
+    s.add(1)
+    s.add(3)
+    s.add(5)
+    s.add(3)
+    print(s)"""
+    """dicionario"""
+    """ages={"alice":22,"bob":27}
+    ages["charlie"]=30
+    ages["alice"]+=1
+
+    print(ages)"""
+    """funciones"""
+
+    def square(x):
+    return x * x
+
+    def main()
+        for i in range(10):
+        print("{} el cuadrado es {}".format(i,square(i)))
+    """"lo que se pone para que cuando se use imports no de problemas"""
+    if __name__ == "__main__"
+        main()
+
+  from archivo imports funciondeotroarchivo
+
+
+  """crear clases"""
+
+  class Point:
+      def __init__(self,x,y):
+              self.x = x
+              self.y = y
+
+  p=Point(3,5)
+  print(p.x)
+  print(p.y)
+  """ importamos Flask"""
+  from flask import Flask
+  """ nueva app """
+  app = Flask(__name__)
+  """default page"""
+  @app.route("/")
+  def index():
+      return "hello,world!"
+
+  @app.route("/<string:name>")
+  def hello(name):
+      name = name.capitalize()
+      return f"hola,{name}!"
