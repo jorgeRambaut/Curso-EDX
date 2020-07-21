@@ -1,0 +1,14 @@
+{% extends "layout.html" %}
+
+{% block heading %}
+   Primera pagina
+{% endblock %}
+
+{% block body %}
+
+ <form action="{{url_for('hello') }}" method="post">
+   <input type="text" name="name" placeholder="Ingresar Nombre">
+   <button>Aceptar</button>
+</form>
+
+  {% endblock %}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+
+  <head>
+    <meta charset="utf-8">
+    <title> Web Check In </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css">
+
+  </head>
+
+
+  <body>
+
+
+
+    <ul>
+    <li><a href="#Check_in">Web Check In </a></li>
+    <li><a href="https://www.loisuites.com.ar/es/covid-19-informaci%C3%B3n-importante"> Covid 19 </a></li>
+    <li><a href="https://www.buenosaires.gob.ar/coronavirus/preguntas-frecuentes-covid-19">Consultas Frecuentes </a></li>
+    </ul>
+
+<div class="field-content"><img typeof="foaf:Image" class="img-responsive" src="https://www.loisuites.com.ar/sites/default/files/Home---Ig_2.jpg" width="100%" </div>
+<!--  <h2>Formulario Web</h2>-->
+<br></br>
+
+
+</div>
+          <h1>Web Check in</h1>
+
+        {% if new_year %}
+          <h1>Año Nuevo !!</h1>
+        {%else%}
+          <h1>NO</h1>
+        {% endif %}
+
+                    <form id="Check_in"class="formulario web check in">
+                       <div class="formulario_web">
+                            <input type="text" placeholder="Nombre Completo" name="Nombre">
+                            <input type="text" placeholder="Email" name="email">
+                            <input type="number" placeholder="Numero Telefono" name="Telefono">
+                            <input type="text" placeholder="Direccion" name="Direccion">
+                            <br></br>
+                             Fecha de viaje
+                            <input type="date" name="Fecha de viaje">
+                            <br></br>
+                            <input type="number" placeholder="Cantidad Personas" name="Cantidad Personas">
+                            <br></br>
+                            <button>Aceptar</button>
+                       </div>
+
+                    </form>
+
+</body>
+
+
+
+</html>
