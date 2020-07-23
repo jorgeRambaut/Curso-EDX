@@ -3,6 +3,7 @@ from sqlalchemy import create_engine
 from sqlalchemy.orm import scoped_session, sessionmaker
 from flask_sqlalchemy import SQLAlchemy
 
+"""TODO VER CONEXIONES DE BASE DE DATOS!!"""
 engine=create_engine('postgresql://postgres:maradona@localhost/')
 db= scoped_session(sessionmaker(bind=engine))
 
