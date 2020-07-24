@@ -21,7 +21,7 @@ def main():
     if flight is None:
         print("Error no such Flight")
         return
-
+     #mucha atencion a : para los placeholders
     passengers = db.execute("SELECT name FROM passengers WHERE flight_id = :flight_id",
     {"flight_id":flight_id}).fetchall()
 
